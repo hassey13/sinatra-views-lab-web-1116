@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bowling</title>
+    </head>
+    <body>
+    		<% t = Time.now 
+    		m = t.strftime("%B")
+    		d = t.strftime("%A")
+    		wd = t.strftime("%d")
+    		y = t.strftime("%Y")
+    		%>
+	    	<h1>The date is <%= "#{d}, #{m} #{wd}, #{y}" %></h1>
+    </body>
+</html>
